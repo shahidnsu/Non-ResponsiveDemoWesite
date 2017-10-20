@@ -1,3 +1,150 @@
-nav .primary-menu {
-    background-color:#fff;
+/*Eric meyer reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  /*custom website */
+  body{
+      background-color:#4b636e;
+      font-family: 'Quicksand', sans-serif;
+  }
+  *,
+  *:before,
+  *:after {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+
+  .grid,
+  .container{
+      margin: 0 auto;
+      width:960px;
+  }
+  .col-1-3{
+      width:33.33%;
+     
+
+  }
+  .col-2-3{
+      width:66.66%;
+      
+  }
+  
+  .logo{
+          font-size:30px;
+          font-weight: 400;
+          letter-spacing: .2em;
+          color:hsla(133, 100%, 78%, 0.15);
+          font-family: 'Nosifer', cursive;
+  }
+  .hero li{
+      display: inline-block;
+      
+  }
+  .primary-nav a {
+      text-decoration: none;
+      vertical-align: center;
+      color:rgba(188, 233, 218, 0.79);
+      cursor: pointer;
+  }
+  .primary-nav{
+      display: inline-block;
+      text-align: right;
+      padding-left: 
+  }
+  .primary-nav li {
+      padding: 10px;
+      font-size: 20px;
+  }
+  .teaser{
+      margin: 0 auto;
+      padding-top: 150px;
+      padding-left: 100px;
+      line-height: 3em;
+      
+
+  }
+  .teaser h1 {
+      font-size: 35px;
+      letter-spacing: .1em;
+      word-spacing: .01em;
+      color:#fff;
+  }
+  article{
+    margin-top: 100px;  
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:10px;
+    vertical-align: center;
+       
+
+  }
+  article p{
+      letter-spacing: .2em;
+      word-spacing: .2em;
+      font-size: 20px;
+      color:#fff;
+
+  }
+  footer {
+      margin-top: 50px;
+      margin-left: 40%;
+  }
+  footer a {
+      cursor: pointer;
+      font-size: 20px;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      background-color: #004d40;
+      border: 1px solid #004d40;
+       color: #FFFFFF;
+       text-decoration: none;
+      
+  }
+  
+
+

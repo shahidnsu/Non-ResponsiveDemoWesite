@@ -49,7 +49,7 @@ body{
     
     
     background-color:#CADBC0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Playfair Display', serif;
 } 
 /*grid*/
 *,
@@ -85,10 +85,10 @@ body{
 }
 .primary-logo {
     margin-top: 20px;
+    font-weight: 900i;
     font-size: 44px;
     text-transform: uppercase;
     letter-spacing: .3em;
-    font-weight: lighter;
     line-height: 1em;
     color:#2F0A28;
 
@@ -97,6 +97,7 @@ body{
     text-decoration: none;
     color:#2F0A28;
     cursor: pointer;
+    
 }
 .primary-logo h1:hover{
     color:#A27E6F;
@@ -104,6 +105,7 @@ body{
 
 .nav {
     text-align: right;
+    font-weight: 400i;
 }
 .nav li{
 display: inline-block;
@@ -111,8 +113,7 @@ margin: 0 15px;
 vertical-align: top;
 }
 .nav a{
-    text-transform: uppercase;
-    font-weight: bolder;
+    text-transform: uppercase;  
     font-size: 20px;
     color:#FAFAFA;
 }
@@ -120,35 +121,50 @@ vertical-align: top;
     margin-right: 0;
 }
 .nav a:hover {
-    color:#A27E6F;
+    color:#E6541A;
 
 }
 .intro{
-    margin: 50px 0 10px 0;
+    margin: 150px 0 10px 0;
     text-align: center;
     background-color: #2F0A28;
 }
 .intro h3 {
     color:#fff;
     font-size: 30px;
-    font-weight: lighter;
+    font-weight: 400;
     letter-spacing: .2em;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .intro h5 {
     color:#fff;
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: 400i;
     letter-spacing: .2em;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 20px;
+}
+.intro h6 {
+    color:#fff;
+    font-size: 15px;
+    font-weight: 400i;
+    letter-spacing: .2em;
+    line-height: 1.3em;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.intro h6 a {
+    color:#E62C17;
+    text-decoration: none;
+    font-size: 22px;
 }
 
 .btn-contact  {
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
+    
 }
 .btn-contact a {
     text-decoration: none;
@@ -156,16 +172,18 @@ vertical-align: top;
     font-size: 24px;
     font-weight: lighter;
     
+    
 }
 .btn-contact button {
     
     padding: 15px 25px;
-    border:1px solid #0E0B0A;
-    background-color: white;
+    border:1px solid #ECCABF;
+    background-color: #FFDEDE;
     border-radius: 10px 10px 10px 10px;
     cursor:pointer;
 
 }
-.btn-contact button:hover{
-    color:#94524A;
+.btn-contact button:hover { 
+    background:#CE6969;
+    
 }

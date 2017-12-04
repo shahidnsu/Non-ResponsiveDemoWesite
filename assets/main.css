@@ -173,7 +173,7 @@ header {
     margin-right: 2%;
     margin-top: 2%;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .menu-bar li {
@@ -357,9 +357,10 @@ services {
     
 }
 .portfolio {
-    height :50vh;
+    height :auto;
     background-color: whitesmoke;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 .portfolio-intro {
     padding-left: 3%;
@@ -387,7 +388,7 @@ services {
 
 .portfolio-menubar a {
     text-decoration: none;
-    
+    font-weight: 900;
     color:black;
 }
 .portfolio-menubar a:hover {
@@ -396,4 +397,69 @@ services {
 }
 .line-hr a {
     color: #305A20;
+}
+
+.portfolio-wrok {
+    width: 95%;
+    padding-top: 5%;
+    padding-left: 4%;  
+    padding-bottom: 5%;
+    
+}
+
+
+.col-1-1 {
+    width: 20%;
+    display: inline-block;
+    padding-right: 3%;
+}
+.wrok-img img {
+    padding-top: 15%;
+    width:100%;
+    padding-left: 10%;
+}
+.team-section {
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+.team-header{
+    padding-left: 3%;
+
+}
+.team-header h2 {
+    color:#305A20;
+    font-size: 30px;
+    font-weight: 400;
+}
+.team-header hr {
+    float: left;
+    width:8%;
+    margin-top: 1.5%;
+}
+.team-member {
+    width:95%;
+    padding-left: 3%;
+    padding-top: 4%;
+}
+.person img {
+    width:100%;
+    padding-top: 13%;
+}
+.person h3 {
+    padding-top: 10%;
+    color:#305A20;
+    font-size: 30px;
+}
+.person hr {
+    float: left;
+    width:20%;
+    
+}
+.person h4 {
+    padding-top: 5%;
+    color: #305A20;
+    font-size: 20px;
+
 }

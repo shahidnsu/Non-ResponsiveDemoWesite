@@ -296,3 +296,104 @@ section {
 
 /*HERO AND CONTENT PART DONE
 */
+
+/*SERVICE part start here */
+
+services {
+    height: 60vh;
+    background-color:white;
+   
+}
+.service-header {
+    padding-left: 4%;
+    padding-top: 3%;
+}
+.service-header h2 {
+    color: rgb(53, 71, 46);
+    font-size: 30px;
+    letter-spacing: .1em;
+}
+.service-header hr {
+    margin-top: 1.5%;
+    float: left;
+    width: 8%;
+}
+
+.service-info {
+    width: 95%;
+    padding-top: 5%;
+    padding-left: 4%;
+   
+    padding-bottom: 5%;
+    
+}
+
+
+.col-1-2 {
+    width: 20%;
+    display: inline-block;
+    padding-right: 3%;
+}
+
+.our-service h2 {
+    font-size: 25px;
+    color: #305A20;
+    letter-spacing: .1em;
+}
+
+.our-service hr {
+    width: 20%;
+    float: left;
+}
+
+.our-service p {
+    padding-top: 2%;
+    line-height: 1.5em;
+    padding-bottom: 2%;
+}
+.our-service i {
+    padding-bottom: 4%;
+    padding-top: 3%;
+    
+}
+.portfolio {
+    height :50vh;
+    background-color: whitesmoke;
+    padding-top: 3%;
+}
+.portfolio-intro {
+    padding-left: 3%;
+    
+}
+.portfolio-intro h2 {
+    font-size: 30px;
+    color:#305A20;
+}
+.portfolio-intro hr {
+    width:8%;
+    float: left;
+    margin-top: 2%;
+}
+.portfolio-menubar {
+   
+   padding-top: 4%;
+    padding-left: 3%;
+}
+.portfolio-menubar li {
+    display: inline-block;
+    padding-right: 3%;
+    
+}
+
+.portfolio-menubar a {
+    text-decoration: none;
+    
+    color:black;
+}
+.portfolio-menubar a:hover {
+        text-decoration: underline;
+        color: #305A20;
+}
+.line-hr a {
+    color: #305A20;
+}

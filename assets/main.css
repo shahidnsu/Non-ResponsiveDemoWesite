@@ -429,6 +429,7 @@ services {
     padding-bottom: 3%;
 }
 
+
 .team-header {
     padding-left: 3%;
 }
@@ -461,7 +462,6 @@ services {
     color: #305A20;
     font-size: 30px;
 }
-
 .person hr {
     float: left;
     width: 20%;
@@ -471,4 +471,58 @@ services {
     padding-top: 5%;
     color: #305A20;
     font-size: 20px;
+}
+
+.Contact-Us {
+    height: auto;
+    padding-top: 3%;
+    color:rgb(102, 95, 95);
+    
+}
+.contact-header {
+    padding-left: 3%;
+    padding-top: 3%;
+    
+}
+.contact-header h2 {
+    color:#305A20;
+    font-size: 30px;
+    
+
+}
+.contact-header hr {
+    float: left;
+    width:8%;
+}
+
+.contact {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width:90%;
+    
+
+}
+.contact-body {
+    padding-left: 5%;
+}
+.contact-body p{
+    color:#305A20;
+    font-weight: 900;
+    
+}
+.contact-body i{
+    padding-top: 6%;
+}
+.contact-body span{
+    padding-left: 3%;
+    letter-spacing: .2em;
+    line-height: .1em;
+    color:#305A20;
+}
+.col-1-5 {
+    width:50%;
+    display: inline-block;
+}
+mbody {
+    width:30%;
 }

@@ -293,7 +293,6 @@ section {
     line-height: 1.5em;
 }
 
-
 /*HERO AND CONTENT PART DONE
 */
 
@@ -473,56 +472,45 @@ services {
     font-size: 20px;
 }
 
-.Contact-Us {
+footer{
     height: auto;
-    padding-top: 3%;
-    color:rgb(102, 95, 95);
-    
+    width: 100%;
+    background-color: #F6F6F6;
+     float: left; 
 }
-.contact-header {
-    padding-left: 3%;
-    padding-top: 3%;
-    
-}
-.contact-header h2 {
-    color:#305A20;
-    font-size: 30px;
-    
-
-}
-.contact-header hr {
-    float: left;
-    width:8%;
-}
-
 .contact {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    width:90%;
-    
-
-}
-.contact-body {
-    padding-left: 5%;
-}
-.contact-body p{
-    color:#305A20;
-    font-weight: 900;
-    
-}
-.contact-body i{
-    padding-top: 6%;
-}
-.contact-body span{
-    padding-left: 3%;
-    letter-spacing: .2em;
-    line-height: .1em;
-    color:#305A20;
-}
-.col-1-5 {
-    width:50%;
+    height: auto;
+    width:25%;
     display: inline-block;
 }
-mbody {
-    width:30%;
+ .contact h2 {
+     padding-top: 3%;
+     padding-left: 3%;
+     font-size: 30px;
+     color:#305A20;
+
+ }
+ .contact hr {
+     float: left;
+     width: 30%;
+     margin-left: 5%;
+     color: #305A20;
+ }
+.contact i {
+    padding-top: 10%;
+     color:#305A20;
+}
+.contact span {
+    padding-left: 5%;
+    font-size: 20px;
+    color:#305A20;
+    line-height: 30px;
+}
+.one {
+    margin-left: 31%;
+    display: block;
+}
+.two{
+padding-left: 30%;
+
 }

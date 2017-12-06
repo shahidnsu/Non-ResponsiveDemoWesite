@@ -484,10 +484,11 @@ footer{
     display: inline-block;
 }
  .contact h2 {
-     padding-top: 3%;
+     padding-top: 10%;
      padding-left: 3%;
      font-size: 30px;
      color:#305A20;
+     font-weight: 700;
 
  }
  .contact hr {
@@ -513,4 +514,44 @@ footer{
 .two{
 padding-left: 30%;
 
+}
+.message-section {
+    float: right;
+    width:50%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+
+}
+.message-section h2 {
+    font-size: 30px;
+    color:#305A20;
+    font-weight: 700;
+    
+
+}
+.input1 {
+    width:35%;
+    padding: 15px;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+.input2{
+    width:70%;
+    margin-top: 5%;
+    padding: 30px;
+}
+.EmailButton {
+    margin-top: 5%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: #305A20;
+    font-size: 20px;
+    color:#305A20;
+
+}
+.EmailButton button:hover {
+   background-color: #305A20;
+   color:white;
 }

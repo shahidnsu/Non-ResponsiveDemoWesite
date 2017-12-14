@@ -157,13 +157,16 @@ header {
     width: 90%;
     height: 30%;
 }
+
 h2 {
     font-size: 30px;
-    color:#305A20;
+    color: #305A20;
 }
+
 hr {
     float: left;
 }
+
 .company_name {
     width: 35%;
     float: left;
@@ -241,57 +244,43 @@ hr {
     border-color: #305A20;
     font-weight: 400;
 }
-
 .content-button button:hover {
     background-color: #305A20;
     color: #EEEEEE;
 }
-
 section {
     height: 50vh;
     background-color: #F6F6F6;
     padding-bottom: 10%;
 }
-
 .Info {
     padding-left: 3%;
     padding-top: 3%;
 }
-
 .Info h2 {
-    
     letter-spacing: .1em;
 }
-
 .Info hr {
     margin-top: 1.5%;
-    
     width: 5%;
 }
-
 .more-info {
     width: 95%;
     padding-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
 }
-
 .col-1-3 {
     width: 30%;
     display: inline-block;
     padding-right: 3%;
 }
-
 .who h2 {
-    
     letter-spacing: .1em;
 }
-
 .who hr {
     width: 20%;
-    
 }
-
 .who p {
     padding-top: 2%;
     line-height: 1.5em;
@@ -300,251 +289,204 @@ section {
 /*HERO AND CONTENT PART DONE
 */
 
-
 /*SERVICE part start here */
 
 services {
     height: 60vh;
     background-color: white;
 }
-
 .service-header {
     padding-left: 4%;
     padding-top: 3%;
 }
-
 .service-header h2 {
-    
     letter-spacing: .1em;
 }
-
 .service-header hr {
     margin-top: 1.5%;
     float: left;
     width: 8%;
 }
-
 .service-info {
     width: 95%;
     padding-top: 5%;
     padding-left: 4%;
     padding-bottom: 5%;
 }
-
 .col-1-2 {
     width: 20%;
     display: inline-block;
     padding-right: 3%;
 }
-
-
-
 .our-service hr {
     width: 20%;
-    
 }
-
 .our-service p {
     padding-top: 2%;
     line-height: 1.5em;
     padding-bottom: 2%;
 }
-
 .our-service i {
     padding-bottom: 4%;
     padding-top: 3%;
 }
-
 .portfolio {
     height: auto;
     background-color: whitesmoke;
     padding-top: 3%;
     padding-bottom: 3%;
 }
-
 .portfolio-intro {
     padding-left: 3%;
 }
-
-
-
 .portfolio-intro hr {
     width: 8%;
-    
     margin-top: 2%;
 }
-
 .portfolio-menubar {
     padding-top: 4%;
     padding-left: 3%;
 }
-
 .portfolio-menubar li {
     display: inline-block;
     padding-right: 3%;
 }
-
 .portfolio-menubar a {
     text-decoration: none;
     font-weight: 900;
     color: black;
 }
-
 .portfolio-menubar a:hover {
     text-decoration: underline;
     color: #305A20;
 }
-
 .line-hr a {
     color: #305A20;
 }
-
 .portfolio-wrok {
     width: 95%;
     padding-top: 5%;
     padding-left: 4%;
     padding-bottom: 5%;
 }
-
 .col-1-1 {
     width: 20%;
     display: inline-block;
     padding-right: 3%;
 }
-
 .wrok-img img {
     padding-top: 15%;
     width: 100%;
     padding-left: 10%;
 }
-
 .team-section {
     height: auto;
     padding-top: 3%;
     padding-bottom: 3%;
 }
-
-
 .team-header {
     padding-left: 3%;
 }
-
 .team-header h2 {
-    
     font-weight: 400;
 }
-
 .team-header hr {
-   
     width: 8%;
     margin-top: 1.5%;
 }
-
 .team-member {
     width: 95%;
     padding-left: 3%;
     padding-top: 4%;
 }
-
 .person img {
     width: 100%;
     padding-top: 13%;
 }
-
 .person h3 {
     padding-top: 10%;
     color: #305A20;
     font-size: 30px;
 }
 .person hr {
-    
     width: 20%;
 }
-
 .person h4 {
     padding-top: 5%;
     color: #305A20;
     font-size: 20px;
 }
-
-footer{
+footer {
     height: auto;
     width: 100%;
     background-color: #F6F6F6;
-     float: left; 
+    float: left;
 }
 .contact {
     height: auto;
-    width:25%;
+    width: 25%;
     display: inline-block;
 }
- .contact h2 {
-     padding-top: 10%;
-     padding-left: 3%;
-     
-     font-weight: 700;
-
- }
- .contact hr {
-    
-     width: 30%;
-     margin-left: 5%;
-     color: #305A20;
- }
+.contact h2 {
+    padding-top: 10%;
+    padding-left: 3%;
+    font-weight: 700;
+}
+.contact hr {
+    width: 30%;
+    margin-left: 5%;
+    color: #305A20;
+}
 .contact i {
     padding-top: 10%;
-     color:#305A20;
+    color: #305A20;
 }
 .contact span {
     padding-left: 5%;
     font-size: 20px;
-    color:#305A20;
+    color: #305A20;
     line-height: 30px;
 }
 .one {
     margin-left: 31%;
     display: block;
 }
-.two{
-padding-left: 30%;
-
+.two {
+    padding-left: 30%;
 }
 .message-section {
     float: right;
-    width:50%;
+    width: 50%;
     padding-top: 3%;
     padding-bottom: 7%;
-
 }
 .message-section h2 {
-    
     font-weight: 700;
-    
-
 }
 .input1 {
-    width:35%;
+    width: 35%;
     padding: 15px;
     margin-right: 3%;
     margin-top: 3%;
 }
-.input2{
-    width:70%;
+
+.input2 {
+    width: 70%;
     margin-top: 5%;
     padding: 30px;
 }
 .EmailButton {
     margin-top: 5%;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     border-color: #305A20;
     font-size: 20px;
-    color:#305A20;
-
+    color: #305A20;
 }
+
 .EmailButton button:hover {
-   background-color: #305A20;
-   color:white;
+    background-color: #305A20;
+    color: white;
 }

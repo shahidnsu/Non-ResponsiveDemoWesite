@@ -157,7 +157,10 @@ header {
     width: 90%;
     height: 30%;
 }
-
+h2 {
+    font-size: 30px;
+    color:#305A20;
+}
 .company_name {
     width: 35%;
     float: left;
@@ -253,8 +256,7 @@ section {
 }
 
 .Info h2 {
-    color: rgb(53, 71, 46);
-    font-size: 30px;
+    
     letter-spacing: .1em;
 }
 
@@ -278,8 +280,7 @@ section {
 }
 
 .who h2 {
-    font-size: 25px;
-    color: #305A20;
+    
     letter-spacing: .1em;
 }
 
@@ -310,8 +311,7 @@ services {
 }
 
 .service-header h2 {
-    color: rgb(53, 71, 46);
-    font-size: 30px;
+    
     letter-spacing: .1em;
 }
 
@@ -334,11 +334,7 @@ services {
     padding-right: 3%;
 }
 
-.our-service h2 {
-    font-size: 25px;
-    color: #305A20;
-    letter-spacing: .1em;
-}
+
 
 .our-service hr {
     width: 20%;
@@ -367,10 +363,7 @@ services {
     padding-left: 3%;
 }
 
-.portfolio-intro h2 {
-    font-size: 30px;
-    color: #305A20;
-}
+
 
 .portfolio-intro hr {
     width: 8%;
@@ -434,8 +427,7 @@ services {
 }
 
 .team-header h2 {
-    color: #305A20;
-    font-size: 30px;
+    
     font-weight: 400;
 }
 
@@ -486,8 +478,7 @@ footer{
  .contact h2 {
      padding-top: 10%;
      padding-left: 3%;
-     font-size: 30px;
-     color:#305A20;
+     
      font-weight: 700;
 
  }
@@ -523,8 +514,7 @@ padding-left: 30%;
 
 }
 .message-section h2 {
-    font-size: 30px;
-    color:#305A20;
+    
     font-weight: 700;
     
 

@@ -161,6 +161,9 @@ h2 {
     font-size: 30px;
     color:#305A20;
 }
+hr {
+    float: left;
+}
 .company_name {
     width: 35%;
     float: left;
@@ -262,7 +265,7 @@ section {
 
 .Info hr {
     margin-top: 1.5%;
-    float: left;
+    
     width: 5%;
 }
 
@@ -286,7 +289,7 @@ section {
 
 .who hr {
     width: 20%;
-    float: left;
+    
 }
 
 .who p {
@@ -338,7 +341,7 @@ services {
 
 .our-service hr {
     width: 20%;
-    float: left;
+    
 }
 
 .our-service p {
@@ -367,7 +370,7 @@ services {
 
 .portfolio-intro hr {
     width: 8%;
-    float: left;
+    
     margin-top: 2%;
 }
 
@@ -432,7 +435,7 @@ services {
 }
 
 .team-header hr {
-    float: left;
+   
     width: 8%;
     margin-top: 1.5%;
 }
@@ -454,7 +457,7 @@ services {
     font-size: 30px;
 }
 .person hr {
-    float: left;
+    
     width: 20%;
 }
 
@@ -483,7 +486,7 @@ footer{
 
  }
  .contact hr {
-     float: left;
+    
      width: 30%;
      margin-left: 5%;
      color: #305A20;

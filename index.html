@@ -2,22 +2,121 @@
 <html lang="en">
 
 <head>
-    <script src="https://use.fontawesome.com/353da504ed.js"></script>
+    <!--Required Meta tag-->
     <meta charset="utf-8">
-    <title>First Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>First Project: Responsive Website</title>
+    <!--Add Bootstrap 4 link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="assets/main.css">
 </head>
 
-<body>
-    <header>
-        <div class="primary-nav">
+<body data-spy="scroll" data-target="#menu">
+
+    <!--Start Home Sections-->
+    <div id="home">
+  
+    <!--Navigation Menu-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
+    
+        <div class="container-fluid">
+           <a class="navbar-brand" href="#">Optics</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="menu"> 
+
+             <ul class="navbar-nav ml-auto">
+
+                 <li class="nav-item">
+                     <a class="nav-link" href="#home">HOME</a>
+                 </li>
+
+                 <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                        <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+
+                <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                </li>
+
+                <li class="nav-item">
+                        <a class="nav-link" href="#team">TEAM</a>
+                </li>
+
+             </ul>
+           </div>
+        </div>
+    </nav>
+
+    <!--Landing Page-->
+    <div class="landing">
+        <div class="home-wrap">
+            <div class="home-inner">
+            </div>
+        </div>
+    </div>
+    
+    <!--Landing Page Caption-->
+    <div class="caption center-block text-center">
+        <h3 class="display-4">We Are Optics.</h3>
+        <p>An award wining digital desgin and development company</p>
+        <a class="btn btn-outline-blue" href="#about">Learn More</a>
+    </div>
+    </div> <!--End Home Section-->
+
+    <!--Start About Section-->
+    <div id="about">
+   
+    <div class="jumbotron">
+
+        <h3 class="display-4 heading text-center">About</h3>
+        <br>
+
+     <div class="row">
+
+      <div class="col-md-4 text-center">
+       <h4>Who We Are</h4>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+          text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+          specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged.</p>
+      </div>
+
+      <div class="col-md-4 text-center">
+            <h4>What We Do</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.</p>
+       </div>
+
+       <div class="col-md-4 text-center">
+        <h4>Why Choose Us</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.</p>
+        </div>
+
+     </div>  <!--End Row-->
+    </div><!--End of jumbotron-->
+
+    </div><!--End of the about Section-->
+
+    <!-- <header> -->
+        <!-- <div class="primary-nav">
             <ul>
                 <li class="company_name">
                     <a href="#">Optics</a>
                 </li>
-            </ul>
-            <ul class="menu-bar">
+            </ul> -->
+            <!-- <ul class="menu-bar">
                 <li class="home">
                     <a href="#">HOME</a>
                 </li>
@@ -34,8 +133,8 @@
                     <a href="#">TEAM</a>
                 </li>
             </ul>
-        </div>
-        <div class="content">
+        </div> -->
+        <!-- <div class="content">
             <h1>We are
                 <span>Optics</span>
             </h1>
@@ -87,9 +186,9 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--NEW CODE WILL START FROM HERE!-->
-    <div class="services">
+    <!-- <div class="services">
         <div class="service-header">
             <h2>Our Services</h2>
             <hr>
@@ -298,9 +397,16 @@
             
         </div>
         
-    </footer>
-    
+    </footer> -->
 
+    
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+     <!-- <script src="https://use.fontawesome.com/353da504ed.js"></script> -->
 </body>
 
 </html>

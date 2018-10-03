@@ -6,8 +6,7 @@
 
 /* ERIC MEYER RESET*/
 
-
-html,
+/* html,
 body,
 div,
 span,
@@ -94,12 +93,12 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-}
+} */
 
 
 /* HTML5 display-role reset for older browsers */
 
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -143,7 +142,7 @@ table {
 
 /*Custom styles*/
 
-body {
+/* body {
     font-family: 'Merriweather', serif;
     box-sizing: border-box;
 }
@@ -152,9 +151,9 @@ header {
     height: 80vh;
     background-image: url("images/slide2.jpg");
     background-size: cover;
-}
+} */
 
-.primary-nav {
+/* .primary-nav {
     width: 90%;
     height: 30%;
 }
@@ -184,9 +183,9 @@ hr {
     margin-top: 2%;
     font-size: 15px;
     font-weight: 900;
-}
+} */
 
-.menu-bar li {
+/* .menu-bar li {
     display: inline;
     margin-left: 9%;
 }
@@ -218,9 +217,9 @@ hr {
 
 .content span {
     color: #305A20;
-}
+} */
 
-.content p {
+/* .content p {
     color: #37474F;
     margin-top: 3%;
     margin-left: -5%;
@@ -257,8 +256,8 @@ section {
 .Info {
     padding-left: 3%;
     padding-top: 3%;
-}
-.Info h2 {
+} */
+/* .Info h2 {
     letter-spacing: .1em;
 }
 .Info hr {
@@ -285,22 +284,22 @@ section {
 .who p {
     padding-top: 2%;
     line-height: 1.5em;
-}
+} */
 
 /*HERO AND CONTENT PART DONE
 */
 
 /*SERVICE part start here */
 
-services {
+/* services {
     height: 60vh;
     background-color: white;
 }
 .service-header {
     padding-left: 4%;
     padding-top: 3%;
-}
-.service-header h2 {
+} */
+/* .service-header h2 {
     letter-spacing: .1em;
 }
 .service-header hr {
@@ -318,8 +317,8 @@ services {
     width: 20%;
     display: inline-block;
     padding-right: 3%;
-}
-.our-service hr {
+} */
+/* .our-service hr {
     width: 20%;
 }
 .our-service p {
@@ -454,29 +453,29 @@ footer {
 }
 .two {
     padding-left: 30%;
-}
-.message-section {
+} */
+/* .message-section {
     float: right;
     width: 50%;
     padding-top: 3%;
     padding-bottom: 7%;
-}
-.message-section h2 {
+ } */
+/*.message-section h2 {
     font-weight: 700;
-}
-.input1 {
+} */
+/* .input1 {
     width: 35%;
     padding: 15px;
     margin-right: 3%;
     margin-top: 3%;
-}
+} */
 
-.input2 {
+/* .input2 {
     width: 70%;
     margin-top: 5%;
     padding: 30px;
-}
-.EmailButton {
+} */
+/* .EmailButton {
     margin-top: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -485,9 +484,9 @@ footer {
     border-color: #305A20;
     font-size: 20px;
     color: #305A20;
-}
+} */
 
-.EmailButton button:hover {
+/* .EmailButton button:hover {
     background-color: #305A20;
     color: white;
-}
+}  */
